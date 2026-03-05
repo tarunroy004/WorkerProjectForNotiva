@@ -1,9 +1,0 @@
-trigger:
-- main
-
-pool:
-  name: LocalPool
-
-steps:
-- script: echo Hello World
-  displayName: 'Print Hello World'
