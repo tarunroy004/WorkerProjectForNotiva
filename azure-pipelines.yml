@@ -2,13 +2,8 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  name: LocalPool
 
 steps:
-- script: echo Hello World from Azure DevOps Pipeline!
+- script: echo Hello World
   displayName: 'Print Hello World'
-
-- script: |
-    echo Pipeline is running successfully
-    echo Build completed
-  displayName: 'Confirm pipeline execution'
